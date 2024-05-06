@@ -49,6 +49,7 @@ const Slider = () => {
           fill={true}
           className="object-cover "
           sizes="(max-width: 640px) 100vw, 50vw"
+          priority={true}
         />
       </div>
     </div>
