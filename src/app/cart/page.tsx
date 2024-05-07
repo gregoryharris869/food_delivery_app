@@ -5,7 +5,7 @@ const CartPage = () => {
   return (
     <div className="h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] flex flex-col text-red-500 lg:flex-row">
       {/* PRODUCTS CONTAINER */}
-      <div className="h-1/2 p-8 flex flex-col justify-center lg:h-full lg:w-2/3 2xl:w-1/2 lg:px-20 xl:px-40 overflow-y-auto">
+      <div className="h-1/2 p-8 flex flex-col justify-center lg:h-full lg:w-2/3 2xl:w-1/2 lg:px-20 xl:px-40 overflow-auto ">
         {/* SINGLE ITEM */}
         <div className="flex items-center justify-between mb-4">
           <Image src="/temporary/p1.png" alt="" width={100} height={100} />
